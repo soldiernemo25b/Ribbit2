@@ -54,6 +54,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 
 
 
+
     protected DialogInterface.OnClickListener mDialogListener = new DialogInterface.OnClickListener() {
         @Override
         public void onClick(DialogInterface dialog, int which) {
@@ -215,6 +216,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         }
     }
 
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -362,8 +364,8 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
                     return getString(R.string.title_section1).toUpperCase(l);
                 case 1:
                     return getString(R.string.title_section2).toUpperCase(l);
-                case 2:
-                    return getString(R.string.title_section3).toUpperCase(l);
+                //case 2: //TODO check to see if this can be deleted
+                    //return getString(R.string.title_section3).toUpperCase(l);
             }
             return null;
         }
