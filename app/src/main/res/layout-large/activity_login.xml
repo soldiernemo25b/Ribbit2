@@ -13,7 +13,8 @@
     <TextView
         android:id="@+id/title"
         android:text="@string/app_name"
-        style="@style/AuthTitle" />
+        style="@style/AuthTitle"
+        android:layout_marginTop="180dp"/>
 
     <TextView
         android:text="@string/subtitle"
@@ -23,7 +24,9 @@
 
     <LinearLayout
         android:id="@+id/edit_text_layout"
-        style="@style/AuthFieldContainer">
+        style="@style/AuthFieldContainer"
+        android:layout_width="400dp"
+        android:layout_centerHorizontal="true">
         <EditText
             android:id="@+id/usernameField"
             android:hint="@string/username_hint"
@@ -46,7 +49,8 @@
         android:text="@string/login_button_label"
         style="@style/AuthButton"
         android:layout_below="@+id/edit_text_layout"
-        android:layout_alignParentLeft="@+id/backgroundImage" />
+        android:layout_width="400dp"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:layout_width="wrap_content"
