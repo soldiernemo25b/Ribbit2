@@ -1,4 +1,4 @@
-package com.example.steve.ribbit2;
+package com.example.steve.ribbit2.adapters;
 
 /**
  * Created by Steve on 2/16/2015.
@@ -8,6 +8,10 @@ import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.example.steve.ribbit2.R;
+import com.example.steve.ribbit2.ui.FriendsFragment;
+import com.example.steve.ribbit2.ui.InboxFragment;
 
 import java.util.Locale;
 
@@ -53,5 +57,15 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 return mContext.getString(R.string.title_section2).toUpperCase(l);
         }
         return null;
+    }
+
+    public int getIcon(int position){
+        switch (position) {
+            case 0:
+                return R.drawable.ic_tab_inbox;
+            case 1:
+                return R.drawable.ic_tab_friends;
+        }
+        return R.drawable.ic_tab_inbox;
     }
 }

@@ -1,4 +1,4 @@
-package com.example.steve.ribbit2;
+package com.example.steve.ribbit2.utils;
 
 /**
  * Created by Steve on 2/16/2015.

@@ -1,4 +1,4 @@
-package com.example.steve.ribbit2;
+package com.example.steve.ribbit2.ui;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 import android.widget.ImageView;
 
+import com.example.steve.ribbit2.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.Timer;
@@ -41,9 +42,9 @@ public class ViewImageActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+        //if (id == R.id.action_settings) {
+        //    return true;
+        //}
 
         return super.onOptionsItemSelected(item);
     }

@@ -1,4 +1,4 @@
-package com.example.steve.ribbit2;
+package com.example.steve.ribbit2.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

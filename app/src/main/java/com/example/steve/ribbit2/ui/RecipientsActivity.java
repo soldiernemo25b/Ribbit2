@@ -1,4 +1,4 @@
-package com.example.steve.ribbit2;
+package com.example.steve.ribbit2.ui;
 
 import android.app.AlertDialog;
 import android.app.ListActivity;
@@ -12,6 +12,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.steve.ribbit2.utils.FileHelper;
+import com.example.steve.ribbit2.utils.ParseConstants;
+import com.example.steve.ribbit2.R;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseFile;

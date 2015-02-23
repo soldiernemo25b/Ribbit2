@@ -1,4 +1,4 @@
-package com.example.steve.ribbit2;
+package com.example.steve.ribbit2.ui;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -23,6 +23,8 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.Toast;
 
+import com.example.steve.ribbit2.utils.ParseConstants;
+import com.example.steve.ribbit2.R;
 import com.parse.ParseAnalytics;
 import com.parse.ParseUser;
 
@@ -211,7 +213,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
             // this tab is selected.
             actionBar.addTab(
                     actionBar.newTab()
-                            .setText(mSectionsPagerAdapter.getPageTitle(i))
+                            .setIcon(R.drawable.ic_tab_inbox)
                             .setTabListener(this));
         }
     }

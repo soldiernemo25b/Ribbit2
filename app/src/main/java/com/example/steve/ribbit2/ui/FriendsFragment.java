@@ -1,4 +1,4 @@
-package com.example.steve.ribbit2;
+package com.example.steve.ribbit2.ui;
 
 import android.app.AlertDialog;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
+import com.example.steve.ribbit2.utils.ParseConstants;
+import com.example.steve.ribbit2.R;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseQuery;
